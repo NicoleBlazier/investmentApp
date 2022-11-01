@@ -1,8 +1,6 @@
 :root {
-  --bg-main: #E5CEF6;
   --bg-body: #fff;
   --color-txt: #717070;
-  --filled-color: #717070;
   --filled-bg: #CEA3EE;
   --placeholder: #bab9b9;
 
@@ -82,7 +80,7 @@ select.NaNinvalid {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: var(--bright-purple);
+  background-color: #4F167A;
   border: none;
   border-radius: 50%;
   display: inline-block;
@@ -102,7 +100,7 @@ select.NaNinvalid {
 input[type=radio] {
   padding: 5px;
   margin: 5px;
-	accent-color: var(--bright-purple);
+	accent-color: #4F167A;
 }
 
 .hr-line {
@@ -165,37 +163,37 @@ input[type=radio] {
 
 .btn-invest {
   margin: 10px !important;
-  background-color: var(--white);
+  background-color: #fff;
   border: none;
   box-shadow: var(--box-shadow);
   height: 120px;
   width: 100px;
   text-shadow: var(--text-shadow);
-  color: var(--color-txt);
+  color: #717070;
   border-radius: 5px;
 }
 
 .fa-circle-check {
-  color: var(--bright-purple);
+  color: #4F167A;
   box-shadow: none;
   text-shadow: none;
-  /* background-color: var(--white); */
+  /* background-color: #fff; */
   font-size: 40px;
   margin: 35px 10px 10px 10px;
 }
 
 .active {
-  background-color: var(--filled-bg);
-  border: 2px solid var(--bright-purple);
-  color: var(--white);
+  background-color: #CEA3EE;
+  border: 2px solid #4F167A;
+  color: #fff;
   box-shadow: none;
   text-shadow: none;
 }
 
 .btn-invest:hover, .btn-invest:active {
-  background-color: var(--filled-bg);
-  border: 2px solid var(--bright-purple);
-  color: var(--white);
+  background-color: #CEA3EE;
+  border: 2px solid #4F167A;
+  color: #fff;
   box-shadow: none;
   text-shadow: none;
 }
@@ -203,8 +201,8 @@ input[type=radio] {
 .btn-bar {
   width: 200px;
   height: 50px;
-  background-color: var(--bright-purple);
-  color: var(--white);
+  background-color: #4F167A;
+  color: #fff;
   border: none;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
@@ -213,14 +211,14 @@ input[type=radio] {
 }
 
 .btn-bar:hover, .btn-bar-sig:hover {
-  background-color: var(--filled-bg);
+  background-color: #CEA3EE;
 }
 
 .btn-bar-sig {
   width: 100px;
   height: 35px;
-  background-color: var(--bright-purple);
-  color: var(--white);
+  background-color: #4F167A;
+  color: #fff;
   border: none;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
@@ -305,7 +303,7 @@ input[type=radio] {
 }
 
 ::placeholder {
-  color: var(--placeholder);
+  color: #bab9b9;
 }
 
 input[type=text] {
@@ -315,7 +313,7 @@ input[type=text] {
   height: 30px;
   width: 185px;
   margin: 0 5px 0 5px;
-  color: var(--bright-purple);
+  color: #4F167A;
   padding: 5px;
 }
 
@@ -331,7 +329,7 @@ select {
   height: 30px;
   width: 185px;
   margin: 0 5px 0 5px !important;
-  color: var(--placeholder);
+  color: #bab9b9;
   padding: 5px;
 }
 
@@ -364,7 +362,7 @@ select {
   border-radius: 15px;
   cursor: crosshair;
   margin: 10px;
-  color: var(--white);
+  color: #fff;
 }
 
 #sig-dataUrl {
@@ -410,7 +408,6 @@ select {
 
 #address-line-2-title {
   display: none;
-  padding:
 }
 
 #review-address-two {
@@ -431,10 +428,10 @@ header {
 
 body {
   font-family: "Montserrat", cursive;
-  color: var(--color-txt);
+  color: #717070;
   margin: 0;
   text-align: center;
-  background-color: var(--bg-body);
+  background-color: #fff;
   box-shadow: var(--box-shadow);
   text-shadow: var(--text-shadow);
 }
