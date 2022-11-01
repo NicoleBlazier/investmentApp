@@ -2,83 +2,83 @@
 <html lang="en">
 <head>
   <title>A JavaScript project</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.e308ff8e.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <!-- font awesome -->
     <script src="https://kit.fontawesome.com/df0405a8db.js" crossorigin="anonymous"></script>
-</head>
+<script src="/style.e308ff8e.js"></script></head>
 <body>
   <header>
   </header>
     <main>
-      <div class='main-title'>
+      <div class="main-title">
         <h1>INVESTMENT APPLICATION</h1>
       </div>
-      <div class='stepper'>
-        <div class='step'>
-          <div class='circle'></div>
+      <div class="stepper">
+        <div class="step">
+          <div class="circle"></div>
           <div>Investment</div>
         </div>
-        <div class='step'>
-          <div class='circle'></div>
+        <div class="step">
+          <div class="circle"></div>
           <div>Account Information</div>
         </div>
-        <div class='step'>
-          <div class='circle'></div>
+        <div class="step">
+          <div class="circle"></div>
           <div>Review & Confirm</div>
         </div>
-        <div class='step'>
-          <div class='circle'></div>
+        <div class="step">
+          <div class="circle"></div>
           <div>Intial & Sign</div>
         </div>
-        <div class='step'>
-          <div class='circle'></div>
+        <div class="step">
+          <div class="circle"></div>
           <div>Fund Account</div>
         </div>
       </div>
-      <hr class='hr-line'>
+      <hr class="hr-line">
 
       <form id="regForm">
           <!-- Stepper 1 -->
         <div class="tab">
-            <div class='investments'>
-              <div class='investment-title'>
+            <div class="investments">
+              <div class="investment-title">
                 <h2>Welcome</h2>
                 <h3>How much do you want to invest?</h3>
               </div>
-              <div class='num-of-shares box-grey'>
-                <div class='flex-row space-between'>
-                  <div class='flex-row'>
-                    <input type='text' id='share' name='share' placeholder='Number of Shares' required>
-                    <div id='numOfShares'></div>
+              <div class="num-of-shares box-grey">
+                <div class="flex-row space-between">
+                  <div class="flex-row">
+                    <input type="text" id="share" name="share" placeholder="Number of Shares" required="">
+                    <div id="numOfShares"></div>
                   </div>
                   <div>
                     <div>($10/share)</div>
                   </div>
                 </div>
               </div>
-              <div class='investment-title'>
+              <div class="investment-title">
                 <h3>How do you want to take ownership?</h3>
               </div>
-              <div class='own box-grey'>
-                <div class='own-btns'>
-                  <div class='btn-invest investment' id='investment'>
+              <div class="own box-grey">
+                <div class="own-btns">
+                  <div class="btn-invest investment" id="investment">
                     <i class="fa-solid fa-circle-check"></i>
                     <div>Investment</div>
                   </div>
-                  <div class='btn-invest equity' id='equity'>
+                  <div class="btn-invest equity" id="equity">
                     <i class="fa-solid fa-circle-check"></i>
                     <div>Equity</div>
                   </div>
-                  <div class='btn-invest trust' id='trust'>
+                  <div class="btn-invest trust" id="trust">
                     <i class="fa-solid fa-circle-check"></i>
                     <div>Trust</div>
                   </div>
-                  <div class='btn-invest ira/401k' id='ira/401k'>
+                  <div class="btn-invest ira/401k" id="ira/401k">
                     <i class="fa-solid fa-circle-check"></i>
                     <div>IRA/401k</div>
                   </div>
@@ -88,222 +88,222 @@
         </div>
 
         <!-- Stepper 2 -->
-        <div class='tab'>
-          <div class='account'>
-            <div class='investment-title'>
+        <div class="tab">
+          <div class="account">
+            <div class="investment-title">
               <h2>Please put in your information</h2>
             </div>
             <div>
-              <div class='box-grey form-box'>
+              <div class="box-grey form-box">
                 <div>
-                  <div class='form-title'>Full Name</div>
-                  <input type='text' id='full-name' name='fullName' placeholder='Full Name' required>
+                  <div class="form-title">Full Name</div>
+                  <input type="text" id="full-name" name="fullName" placeholder="Full Name" required="">
                 </div>
                 <div>
-                  <div class='form-title'>Date of Birth</div>
+                  <div class="form-title">Date of Birth</div>
                   <!-- <input type='text' id='date' name='date' placeholder='Day' required>
                   <input type='text' id='month' name='month' placeholder='Month' required>
                   <input type='text' id='year' name='year' placeholder='Year' required> -->
-                  <select id="select-day" required>
-                      <option value='0'> Day
-                      <option value='1'> 1
-                  	  <option value="2"> 2
-                    	<option value="3"> 3
-                  	  <option value="4"> 4
-                  	  <option value="5"> 5
-                  	  <option value="6"> 6
-                  	  <option value="7"> 7
-                  	  <option value="8"> 8
-                  	  <option value="9"> 9
-                  	  <option value="10"> 10
-                  	  <option value="11"> 11
-                  	  <option value="12"> 12
-                  	  <option value="13"> 13
-                      <option value='14'> 14
-                      <option value="15"> 15
-                      <option value="16"> 16
-                      <option value="17"> 17
-                      <option value="18"> 18
-                      <option value="19"> 19
-                      <option value="20"> 20
-                      <option value="21"> 21
-                      <option value="22"> 22
-                      <option value="23"> 23
-                      <option value="24"> 24
-                      <option value="25"> 25
-                      <option value="26"> 26
-                      <option value="27"> 27
-                      <option value="28"> 28
-                      <option value="29"> 29
-                      <option value="30"> 30
-                      <option value="31"> 31
-                  </select>
-                  <select id="select-month" required>
-                      <option value='0'> Month
-                  	  <option value="January">January
-                    	<option value="February">February
-                  	  <option value="March">March
-                  	  <option value="April">April
-                  	  <option value="May">May
-                  	  <option value="June">June
-                  	  <option value="July">July
-                  	  <option value="August">August
-                  	  <option value="September">September
-                  	  <option value="October">October
-                  	  <option value="November">November
-                  	  <option value="December">December
-                  </select>
-                  <select id="select-year" required>
-                      <option value='0'> Year
-                      <option value="2022"> 2022
-                      <option value="2021"> 2021
-                    	<option value="2020"> 2020
-                  	  <option value="2019"> 2019
-                  	  <option value="2018"> 2018
-                  	  <option value="2017"> 2017
-                  	  <option value="2016"> 2016
-                  	  <option value="2015"> 2015
-                  	  <option value="2014"> 2014
-                  	  <option value="2013"> 2013
-                  	  <option value="2012"> 2012
-                  	  <option value="2011"> 2011
-                  	  <option value="2010"> 2010
-                      <option value='2009'> 2009
-                      <option value="2008"> 2008
-                      <option value="2007"> 2007
-                      <option value="2006"> 2006
-                      <option value="2005"> 2005
-                      <option value="2004"> 2004
-                      <option value="2003"> 2003
-                      <option value="2002"> 2002
-                      <option value="2001"> 2001
-                      <option value="2000"> 2000
-                      <option value="1999"> 1999
-                      <option value="1998"> 1998
-                      <option value="1997"> 1997
-                      <option value="1996"> 1996
-                      <option value="1995"> 1995
-                      <option value="1994"> 1994
-                      <option value="1993"> 1993
-                      <option value="1992"> 1992
-                      <option value="1991"> 1991
-                      <option value="1990"> 1990
-                      <option value="1989"> 1989
-                      <option value="1988"> 1988
-                      <option value="1987"> 1987
-                      <option value="1986"> 1986
-                      <option value="1985"> 1985
-                      <option value="1984"> 1984
-                      <option value="1983"> 1983
-                      <option value="1982"> 1982
-                      <option value="1981"> 1981
-                      <option value="1980"> 1980
-                      <option value="1979"> 1979
-                      <option value="1978"> 1978
-                      <option value="1977"> 1977
-                      <option value="1976"> 1976
-                      <option value="1975"> 1975
-                      <option value="1974"> 1974
-                      <option value="1973"> 1973
-                      <option value="1972"> 1972
-                      <option value="1971"> 1971
-                      <option value="1970"> 1970
-                      <option value="1969"> 1969
-                      <option value="1968"> 1968
-                      <option value="1967"> 1967
-                      <option value="1966"> 1966
-                      <option value="1965"> 1965
-                      <option value="1964"> 1964
-                      <option value="1963"> 1963
-                      <option value="1962"> 1962
-                      <option value="1961"> 1961
-                      <option value="1960"> 1960
-                      <option value="1959"> 1959
-                      <option value="1958"> 1958
-                      <option value="1957"> 1957
-                      <option value="1956"> 1956
-                      <option value="1955"> 1955
-                      <option value="1954"> 1954
-                      <option value="1953"> 1953
-                      <option value="1962"> 1962
-                      <option value="1961"> 1961
-                      <option value="1960"> 1960
-                      <option value="1959"> 1959
-                      <option value="1958"> 1958
-                      <option value="1957"> 1957
-                      <option value="1956"> 1956
-                      <option value="1955"> 1955
-                      <option value="1954"> 1954
-                      <option value="1953"> 1953
-                      <option value="1952"> 1952
-                      <option value="1951"> 1951
-                      <option value="1950"> 1950
-                      <option value="1949"> 1949
-                      <option value="1948"> 1948
-                      <option value="1947"> 1947
-                      <option value="1946"> 1946
-                      <option value="1945"> 1945
-                      <option value="1944"> 1944
-                      <option value="1943"> 1943
-                      <option value="1942"> 1942
-                      <option value="1941"> 1941
-                      <option value="1940"> 1940
-                      <option value="1939"> 1939
-                      <option value="1938"> 1938
-                      <option value="1937"> 1937
-                      <option value="1936"> 1936
-                      <option value="1935"> 1935
-                      <option value="1934"> 1934
-                      <option value="1933"> 1933
-                      <option value="1932"> 1932
-                      <option value="1931"> 1931
-                      <option value="1930"> 1930
-                      <option value="1929"> 1929
-                      <option value="1928"> 1928
-                      <option value="1927"> 1927
-                      <option value="1926"> 1926
-                      <option value="1925"> 1925
-                      <option value="1924"> 1924
-                      <option value="1923"> 1923
-                      <option value="1922"> 1922
-                      <option value="1921"> 1921
-                      <option value="1920"> 1920
-                  </select>
+                  <select id="select-day" required="">
+                      <option value="0"> Day
+                      </option><option value="1"> 1
+                  	  </option><option value="2"> 2
+                    	</option><option value="3"> 3
+                  	  </option><option value="4"> 4
+                  	  </option><option value="5"> 5
+                  	  </option><option value="6"> 6
+                  	  </option><option value="7"> 7
+                  	  </option><option value="8"> 8
+                  	  </option><option value="9"> 9
+                  	  </option><option value="10"> 10
+                  	  </option><option value="11"> 11
+                  	  </option><option value="12"> 12
+                  	  </option><option value="13"> 13
+                      </option><option value="14"> 14
+                      </option><option value="15"> 15
+                      </option><option value="16"> 16
+                      </option><option value="17"> 17
+                      </option><option value="18"> 18
+                      </option><option value="19"> 19
+                      </option><option value="20"> 20
+                      </option><option value="21"> 21
+                      </option><option value="22"> 22
+                      </option><option value="23"> 23
+                      </option><option value="24"> 24
+                      </option><option value="25"> 25
+                      </option><option value="26"> 26
+                      </option><option value="27"> 27
+                      </option><option value="28"> 28
+                      </option><option value="29"> 29
+                      </option><option value="30"> 30
+                      </option><option value="31"> 31
+                  </option></select>
+                  <select id="select-month" required="">
+                      <option value="0"> Month
+                  	  </option><option value="January">January
+                    	</option><option value="February">February
+                  	  </option><option value="March">March
+                  	  </option><option value="April">April
+                  	  </option><option value="May">May
+                  	  </option><option value="June">June
+                  	  </option><option value="July">July
+                  	  </option><option value="August">August
+                  	  </option><option value="September">September
+                  	  </option><option value="October">October
+                  	  </option><option value="November">November
+                  	  </option><option value="December">December
+                  </option></select>
+                  <select id="select-year" required="">
+                      <option value="0"> Year
+                      </option><option value="2022"> 2022
+                      </option><option value="2021"> 2021
+                    	</option><option value="2020"> 2020
+                  	  </option><option value="2019"> 2019
+                  	  </option><option value="2018"> 2018
+                  	  </option><option value="2017"> 2017
+                  	  </option><option value="2016"> 2016
+                  	  </option><option value="2015"> 2015
+                  	  </option><option value="2014"> 2014
+                  	  </option><option value="2013"> 2013
+                  	  </option><option value="2012"> 2012
+                  	  </option><option value="2011"> 2011
+                  	  </option><option value="2010"> 2010
+                      </option><option value="2009"> 2009
+                      </option><option value="2008"> 2008
+                      </option><option value="2007"> 2007
+                      </option><option value="2006"> 2006
+                      </option><option value="2005"> 2005
+                      </option><option value="2004"> 2004
+                      </option><option value="2003"> 2003
+                      </option><option value="2002"> 2002
+                      </option><option value="2001"> 2001
+                      </option><option value="2000"> 2000
+                      </option><option value="1999"> 1999
+                      </option><option value="1998"> 1998
+                      </option><option value="1997"> 1997
+                      </option><option value="1996"> 1996
+                      </option><option value="1995"> 1995
+                      </option><option value="1994"> 1994
+                      </option><option value="1993"> 1993
+                      </option><option value="1992"> 1992
+                      </option><option value="1991"> 1991
+                      </option><option value="1990"> 1990
+                      </option><option value="1989"> 1989
+                      </option><option value="1988"> 1988
+                      </option><option value="1987"> 1987
+                      </option><option value="1986"> 1986
+                      </option><option value="1985"> 1985
+                      </option><option value="1984"> 1984
+                      </option><option value="1983"> 1983
+                      </option><option value="1982"> 1982
+                      </option><option value="1981"> 1981
+                      </option><option value="1980"> 1980
+                      </option><option value="1979"> 1979
+                      </option><option value="1978"> 1978
+                      </option><option value="1977"> 1977
+                      </option><option value="1976"> 1976
+                      </option><option value="1975"> 1975
+                      </option><option value="1974"> 1974
+                      </option><option value="1973"> 1973
+                      </option><option value="1972"> 1972
+                      </option><option value="1971"> 1971
+                      </option><option value="1970"> 1970
+                      </option><option value="1969"> 1969
+                      </option><option value="1968"> 1968
+                      </option><option value="1967"> 1967
+                      </option><option value="1966"> 1966
+                      </option><option value="1965"> 1965
+                      </option><option value="1964"> 1964
+                      </option><option value="1963"> 1963
+                      </option><option value="1962"> 1962
+                      </option><option value="1961"> 1961
+                      </option><option value="1960"> 1960
+                      </option><option value="1959"> 1959
+                      </option><option value="1958"> 1958
+                      </option><option value="1957"> 1957
+                      </option><option value="1956"> 1956
+                      </option><option value="1955"> 1955
+                      </option><option value="1954"> 1954
+                      </option><option value="1953"> 1953
+                      </option><option value="1962"> 1962
+                      </option><option value="1961"> 1961
+                      </option><option value="1960"> 1960
+                      </option><option value="1959"> 1959
+                      </option><option value="1958"> 1958
+                      </option><option value="1957"> 1957
+                      </option><option value="1956"> 1956
+                      </option><option value="1955"> 1955
+                      </option><option value="1954"> 1954
+                      </option><option value="1953"> 1953
+                      </option><option value="1952"> 1952
+                      </option><option value="1951"> 1951
+                      </option><option value="1950"> 1950
+                      </option><option value="1949"> 1949
+                      </option><option value="1948"> 1948
+                      </option><option value="1947"> 1947
+                      </option><option value="1946"> 1946
+                      </option><option value="1945"> 1945
+                      </option><option value="1944"> 1944
+                      </option><option value="1943"> 1943
+                      </option><option value="1942"> 1942
+                      </option><option value="1941"> 1941
+                      </option><option value="1940"> 1940
+                      </option><option value="1939"> 1939
+                      </option><option value="1938"> 1938
+                      </option><option value="1937"> 1937
+                      </option><option value="1936"> 1936
+                      </option><option value="1935"> 1935
+                      </option><option value="1934"> 1934
+                      </option><option value="1933"> 1933
+                      </option><option value="1932"> 1932
+                      </option><option value="1931"> 1931
+                      </option><option value="1930"> 1930
+                      </option><option value="1929"> 1929
+                      </option><option value="1928"> 1928
+                      </option><option value="1927"> 1927
+                      </option><option value="1926"> 1926
+                      </option><option value="1925"> 1925
+                      </option><option value="1924"> 1924
+                      </option><option value="1923"> 1923
+                      </option><option value="1922"> 1922
+                      </option><option value="1921"> 1921
+                      </option><option value="1920"> 1920
+                  </option></select>
                 </div>
               </div>
-              <div class='box-grey form-box flex-row'>
-                <div class='flex-row'>
-                  <input type='radio' id='tax-id' name='id' placeholder='tax-id' required>
-                  <label for='tax-id'>Tax ID</label>
+              <div class="box-grey form-box flex-row">
+                <div class="flex-row">
+                  <input type="radio" id="tax-id" name="id" placeholder="tax-id" required="">
+                  <label for="tax-id">Tax ID</label>
                 </div>
-                <div class='flex-row'>
-                  <input type='radio' id='ssn' name='id' placeholder='ssn' required>
-                  <label for='ssn'>Social Security Number</label>
+                <div class="flex-row">
+                  <input type="radio" id="ssn" name="id" placeholder="ssn" required="">
+                  <label for="ssn">Social Security Number</label>
                 </div>
                 <div>
-                  <input type='text' id='digit-number' name='9-digit-number' placeholder='9 digit number'>
+                  <input type="text" id="digit-number" name="9-digit-number" placeholder="9 digit number">
                 </div>
               </div>
-              <div class='box-grey form-box flex-row'>
-                <div class='flex-row'>
-                  <input type='radio' id='withholding' name='withholding' placeholder='withholding' required>
-                  <label for='withholding'>Subject to backup withholding</label>
+              <div class="box-grey form-box flex-row">
+                <div class="flex-row">
+                  <input type="radio" id="withholding" name="withholding" placeholder="withholding" required="">
+                  <label for="withholding">Subject to backup withholding</label>
                 </div>
-                <div class='flex-row'>
-                  <input type='radio' id='dividends' name='dividends' placeholder='dividends' required>
-                  <label for='dividends'>I want to reinvest my dividends</label>
+                <div class="flex-row">
+                  <input type="radio" id="dividends" name="dividends" placeholder="dividends" required="">
+                  <label for="dividends">I want to reinvest my dividends</label>
                 </div>
               </div>
-              <div class='box-grey form-box'>
-                <div class='flex-row'>
+              <div class="box-grey form-box">
+                <div class="flex-row">
                   <div>
                     <div>Citizenship</div>
-                    <input type='text' id='citizenship' name='citizenship' placeholder='Citizenship Status' required>
+                    <input type="text" id="citizenship" name="citizenship" placeholder="Citizenship Status" required="">
                   </div>
                   <div>
                     <div>Country</div>
-                    <select id="select-country" required>
-                      <option value='0'>Country</option>
+                    <select id="select-country" required="">
+                      <option value="0">Country</option>
                       <option value="Afghanistan">Afghanistan</option>
                       <option value="Aland Islands">Aland Islands</option>
                       <option value="Albania">Albania</option>
@@ -559,35 +559,35 @@
                     </select>
                   </div>
                 </div>
-                <div class='flex-row'>
+                <div class="flex-row">
                   <div>
                     <div>Day Phone</div>
-                    <input type='text' id='day-phone' name='day-phone' placeholder='(XXX) XXX-XXXX' required>
+                    <input type="text" id="day-phone" name="day-phone" placeholder="(XXX) XXX-XXXX" required="">
                   </div>
                   <div>
                     <div>Evening Phone</div>
-                    <input type='text' id='evening-phone' name='evening-phone' placeholder='(XXX) XXX-XXXX' required>
+                    <input type="text" id="evening-phone" name="evening-phone" placeholder="(XXX) XXX-XXXX" required="">
                   </div>
                 </div>
-                <div class='flex-row'>
+                <div class="flex-row">
                   <div>
                     <div>Address Line 1</div>
-                    <input type='text' id='address-line-1' name='address-line-1' placeholder='Address Line 1' required>
+                    <input type="text" id="address-line-1" name="address-line-1" placeholder="Address Line 1" required="">
                     </div>
                     <div>
                       <div>Address Line 2</div>
-                      <input type='text' id='address-line-2' name='address-line-2' placeholder='Address Line 2'>
+                      <input type="text" id="address-line-2" name="address-line-2" placeholder="Address Line 2">
                   </div>
                 </div>
-                <div class='flex-row'>
-                  <div class='flex-column'>
+                <div class="flex-row">
+                  <div class="flex-column">
                     <div>City</div>
-                    <input type='text' id='city' name='city' placeholder='City' required>
+                    <input type="text" id="city" name="city" placeholder="City" required="">
                   </div>
-                  <div class='flex-column'>
+                  <div class="flex-column">
                     <div>State</div>
                     <!-- <input type='text' id='state' name='state' placeholder='State' required> -->
-                    <select id="select-state" required>
+                    <select id="select-state" required="">
                       <option value="0">State</option>
                       <option value="Alabama">Alabama</option>
                       <option value="Alaska">Alaska</option>
@@ -646,9 +646,9 @@
                       <option value="Wyoming">Wyoming</option>
                     </select>
                   </div>
-                  <div class='flex-column'>
+                  <div class="flex-column">
                     <div>Zipcode</div>
-                    <input type='text' id='zipcode' name='zipcode' placeholder='Zipcode' required>
+                    <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" required="">
                   </div>
                 </div>
               </div>
@@ -658,71 +658,71 @@
 
         <!-- Stepper 3 -->
         <div class="tab">
-          <div class='review' id='review'>
-            <div class='investment-title'>
+          <div class="review" id="review">
+            <div class="investment-title">
               <h2>Please review your information</h2>
             </div>
             <div>
-              <div class='box-grey form-box'>
-                <div class='flex-row form-box'>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Your Full Name</div>
-                    <div id='review-full-name'></div>
+              <div class="box-grey form-box">
+                <div class="flex-row form-box">
+                  <div class="form-box-2">
+                    <div class="form-three-title">Your Full Name</div>
+                    <div id="review-full-name"></div>
                   </div>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Date of Birth</div>
-                    <div class='flex-row'>
-                      <div id='review-dob'></div>
+                  <div class="form-box-2">
+                    <div class="form-three-title">Date of Birth</div>
+                    <div class="flex-row">
+                      <div id="review-dob"></div>
                     </div>
                   </div>
                 </div>
-                <div class='flex-row form-box'>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Citizenship</div>
-                    <div id='review-citizenship'></div>
+                <div class="flex-row form-box">
+                  <div class="form-box-2">
+                    <div class="form-three-title">Citizenship</div>
+                    <div id="review-citizenship"></div>
                   </div>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Country</div>
-                    <div id='review-country'></div>
+                  <div class="form-box-2">
+                    <div class="form-three-title">Country</div>
+                    <div id="review-country"></div>
                   </div>
                 </div>
               </div>
-              <div class='box-grey flex-row form-box'>
-                <div class='flex-row'>
-                  <input type='radio' id='review-tax-id' name='tax-id' placeholder='tax-id' readonly>
+              <div class="box-grey flex-row form-box">
+                <div class="flex-row">
+                  <input type="radio" id="review-tax-id" name="tax-id" placeholder="tax-id" readonly="">
                   <div>Tax ID</div>
                 </div>
-                <input type='radio' id='review-ssn-radio' name='ssn' placeholder='tax-id' readonly>
+                <input type="radio" id="review-ssn-radio" name="ssn" placeholder="tax-id" readonly="">
                 <div>Social Security Number</div>
-                <input type='text' id='review-ssn' name='9-digit-number' readonly>
+                <input type="text" id="review-ssn" name="9-digit-number" readonly="">
               </div>
-              <div class='box-grey flex-row form-box'>
-                <input type='radio' id='review-withholding' name='withholding' readonly>
+              <div class="box-grey flex-row form-box">
+                <input type="radio" id="review-withholding" name="withholding" readonly="">
                 <div>Subject to backup withholding</div>
-                <input type='radio' id='review-dividends' name='dividends' readonly>
+                <input type="radio" id="review-dividends" name="dividends" readonly="">
                 <div>I want to reinvest my dividends</div>
               </div>
-              <div class='box-grey form-box'>
-                <div class='flex-row form-box'>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Address Line 1</div>
-                    <div id='review-address-one'></div>
-                    <div id='review-address-one-line-two'></div>
+              <div class="box-grey form-box">
+                <div class="flex-row form-box">
+                  <div class="form-box-2">
+                    <div class="form-three-title">Address Line 1</div>
+                    <div id="review-address-one"></div>
+                    <div id="review-address-one-line-two"></div>
                   </div>
-                  <div class='form-box-2'>
-                    <div class='form-three-title' id='address-line-2-title'>Address Line 2</div>
-                    <div id='review-address-two'></div>
-                    <div id='review-address-two-line-two'></div>
+                  <div class="form-box-2">
+                    <div class="form-three-title" id="address-line-2-title">Address Line 2</div>
+                    <div id="review-address-two"></div>
+                    <div id="review-address-two-line-two"></div>
                   </div>
                 </div>
-                <div class='flex-row form-box'>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Day Phone</div>
-                    <div id='review-day-phone'></div>
+                <div class="flex-row form-box">
+                  <div class="form-box-2">
+                    <div class="form-three-title">Day Phone</div>
+                    <div id="review-day-phone"></div>
                   </div>
-                  <div class='form-box-2'>
-                    <div class='form-three-title'>Evening Phone</div>
-                    <div id='review-even-phone'></div>
+                  <div class="form-box-2">
+                    <div class="form-three-title">Evening Phone</div>
+                    <div id="review-even-phone"></div>
                   </div>
                 </div>
               </div>
@@ -732,31 +732,31 @@
 
         <!-- Stepper 4 -->
         <div class="tab">
-          <div class='initial'>
-            <div class='investment-title'>
-              <h2 class='header-two'>Please sign and confirm the previous information</h2>
+          <div class="initial">
+            <div class="investment-title">
+              <h2 class="header-two">Please sign and confirm the previous information</h2>
             </div>
-            <div class='box-grey'>
+            <div class="box-grey">
               <canvas id="sig-canvas" width="600" height="150">
                 Get a better browser, bro.
               </canvas>
-              <button type="button" class='btn-bar-sig' id="sig-clearBtn">Clear</button>
-              <button type="button" class='btn-bar-sig' id="sig-submitBtn">Submit</button>
+              <button type="button" class="btn-bar-sig" id="sig-clearBtn">Clear</button>
+              <button type="button" class="btn-bar-sig" id="sig-submitBtn">Submit</button>
             	<textarea id="sig-dataUrl" class="form-control sig-data" rows="3">
                 Data URL for your signature will go here!
               </textarea>
-              <img id="sig-image" src=""/>
+              <img id="sig-image" src="">
             </div>
           </div>
         </div>
 
         <!-- Stepper 5 -->
         <div class="tab">
-          <div class='fund'>
-            <div class='fund-title'>
+          <div class="fund">
+            <div class="fund-title">
               <h2>Congratulations you have successfully</h2>
-              <h3 id='fund-num'>bought $5,000 shares</h3>
-              <img id="sig-image-sum" src=""/>
+              <h3 id="fund-num">bought $5,000 shares</h3>
+              <img id="sig-image-sum" src="">
             </div>
           </div>
         </div>
@@ -764,15 +764,15 @@
         <!-- Buttons -->
           <div>
             <div>
-               <div class='btns-bar'>
-                 <button type="button" class='btn-bar' id="prevBtn">Previous</button>
-                 <button type="button" class='btn-bar' id="nextBtn"></button>
+               <div class="btns-bar">
+                 <button type="button" class="btn-bar" id="prevBtn">Previous</button>
+                 <button type="button" class="btn-bar" id="nextBtn"></button>
 
               </div>
             </div>
           </div>
         </form>
   </main>
-  <script src="main.js"></script>
+  <script src="/main.1f19ae8e.js"></script>
 </body>
 </html>
