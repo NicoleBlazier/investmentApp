@@ -117,20 +117,13 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"app.js":[function(require,module,exports) {
-const express = require('express');
-
-const path = require('path');
-
-const app = express();
-app.use(express.static(path.join(__dirname, 'public')));
-module.exports = app;
-},{}],"index.js":[function(require,module,exports) {
-const app = require('./app');
-
-const port = '8888';
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}...`);
-});
-},{"./app":"app.js"}]},{},["index.js"], null)
+})({"index.js":[function(require,module,exports) {
+// const app = require('./app');
+//
+// const port = '8888';
+//
+// app.listen(port, () => {
+//   console.log(`Server is listening on port ${port}...`);
+// });
+},{}]},{},["index.js"], null)
 //# sourceMappingURL=/index.js.map
