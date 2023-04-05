@@ -1,13 +1,27 @@
 :root {
   --bg-body: #fff;
-  --color-txt: #717070;
-  --filled-bg: #CEA3EE;
+  --filled-bg: #ebebeb;
   --placeholder: #bab9b9;
 
+  --color-txt: #3f0096;
+
+  --circle-check: #3f0096;
+  --circle-dark: #3f0096;
+  --circle-light: #d0ccfc;
+
+  --btn-color: #3f0096;
+  --btn-color-hover: #d0ccfc;
+  --btn-bar-color: #b4b3e8;
+
+  --title-color: #525252;
+
+  --canvas-border: #cccccc;
+  --canvas-sig-color: #5b5b5b;
+
   --white: #fff;
-  --bright-purple: #4F167A;
 
   --nav-size: 65px;
+  --input-color: #ffdddd;
   --input-width: 50px;
   --input-height: 50px;
 
@@ -20,34 +34,22 @@
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
   --text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   --sharp-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 
+.phone-padding {
+  margin: -20px 0 0 0;
 }
 
 /* Style the form */
 #regForm {
-  background-color: #ffffff;
-  /* margin: 100px auto; */
+  background-color: var(--bg-body);
   padding: 10px;
   width: 70%;
-  /* min-width: 300px; */
 }
-
-#digit-number {
-  display: none;
-}
-
 
 /* Mark input boxes that gets an error on validation: */
-input.invalid {
-  background-color: #ffdddd;
-}
-
-input.NaNinvalid {
-  background-color: #ffdddd;
-}
-
-select.NaNinvalid {
-  background-color: #ffdddd;
+input.invalid, input.NaNinvalid, select.NaNinvalid {
+  background-color: var(--input-color);
 }
 
 /* Hide all steps by default: */
@@ -56,7 +58,7 @@ select.NaNinvalid {
 }
 
 .main-title {
-    margin: 50px;
+  margin: 50px;
 }
 
 .tab {
@@ -80,7 +82,7 @@ select.NaNinvalid {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #4F167A;
+  background-color: var(--circle-light);
   border: none;
   border-radius: 50%;
   display: inline-block;
@@ -90,17 +92,21 @@ select.NaNinvalid {
 /* Mark the active step: */
 .circle.active {
   opacity: 1;
-  background-color: #4F167A;
+  background-color: var(--circle-dark);
 }
 /* Mark the steps that are finished and valid: */
 .circle.finish {
-  background-color: #4F167A;
+  opacity: 1;
+  background-color: var(--circle-dark);
 }
 
 input[type=radio] {
   padding: 5px;
   margin: 5px;
-	accent-color: #4F167A;
+}
+
+#withholding, #dividends {
+  accent-color: var(--color-txt);
 }
 
 .hr-line {
@@ -120,7 +126,6 @@ input[type=radio] {
 }
 
 .investment-title {
-  /* margin: 10px 15px 0px 15px; */
   text-align: left;
   width: 100%;
 }
@@ -133,7 +138,7 @@ input[type=radio] {
 
 .box-grey {
   margin: 25px 30px;
-  background-color: #ebebeb;
+  background-color: var(--filled-bg);
   width: 625px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
@@ -161,39 +166,38 @@ input[type=radio] {
   margin: 10px 0 0 0 ;
 }
 
-.btn-invest {
+.btn-ownership {
   margin: 10px !important;
-  background-color: #fff;
+  background-color: var(--white);
   border: none;
   box-shadow: var(--box-shadow);
   height: 120px;
   width: 100px;
   text-shadow: var(--text-shadow);
-  color: #717070;
+  color: var(--color-txt);
   border-radius: 5px;
 }
 
 .fa-circle-check {
-  color: #4F167A;
+  color: var(--circle-check);
   box-shadow: none;
   text-shadow: none;
-  /* background-color: #fff; */
   font-size: 40px;
   margin: 35px 10px 10px 10px;
 }
 
 .active {
-  background-color: #CEA3EE;
-  border: 2px solid #4F167A;
-  color: #fff;
+  border: 2px solid var(--circle-dark);
+  background-color: var(--btn-color-hover);
+  color: var(--white);
   box-shadow: none;
   text-shadow: none;
 }
 
-.btn-invest:hover, .btn-invest:active {
-  background-color: #CEA3EE;
-  border: 2px solid #4F167A;
-  color: #fff;
+.btn-ownership:hover {
+  background-color: var(--btn-color-hover);
+  border: 2px solid var(--circle-dark);
+  color: var(--white);
   box-shadow: none;
   text-shadow: none;
 }
@@ -201,8 +205,8 @@ input[type=radio] {
 .btn-bar {
   width: 200px;
   height: 50px;
-  background-color: #4F167A;
-  color: #fff;
+  background-color: var(--btn-color);
+  color: var(--white);
   border: none;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
@@ -211,14 +215,14 @@ input[type=radio] {
 }
 
 .btn-bar:hover, .btn-bar-sig:hover {
-  background-color: #CEA3EE;
+  background-color: var(--btn-color-hover);
 }
 
 .btn-bar-sig {
   width: 100px;
   height: 35px;
-  background-color: #4F167A;
-  color: #fff;
+  background-color: var(--btn-bar-color);
+  color: var(--white);
   border: none;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
@@ -256,15 +260,9 @@ input[type=radio] {
   margin: 0px 700px;
   justify-content: center;
   align-items: center;
-  height: auto;
 }
 
 .fund {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
   margin: 0px 375px;
   height: 60vh;
 }
@@ -280,13 +278,19 @@ input[type=radio] {
   width: 250px;
 }
 
+.form-box-3 {
+  text-align: left;
+  padding: 0;
+  width: 250px;
+}
+
 .form-title {
   padding: 5px 5px 5px 0;
 }
 
 .form-three-title {
   padding: 5px 5px 5px 0;
-  color: #525252;
+  color: var(--title-color);
 }
 
 .flex-row {
@@ -299,11 +303,10 @@ input[type=radio] {
 .flex-column {
   display: flex;
   flex-direction: column;
-
 }
 
 ::placeholder {
-  color: #bab9b9;
+  color: var(--placeholder);
 }
 
 input[type=text] {
@@ -312,14 +315,14 @@ input[type=text] {
   box-shadow: var(--box-shadow);
   height: 30px;
   width: 185px;
-  margin: 0 5px 0 5px;
-  color: #4F167A;
+  /* margin: 0 5px 0 5px; */
+  color: var(--color-txt);
   padding: 5px;
 }
 
 input[type=text]:focus, input[type=text]:active {
   outline:  none !important;
-  border: 1px solid var(--bright-purple);
+  border: 1px solid var(--color-txt);
 }
 
 select {
@@ -328,27 +331,32 @@ select {
   box-shadow: var(--box-shadow);
   height: 30px;
   width: 185px;
-  margin: 0 5px 0 5px !important;
-  color: #bab9b9;
+  margin: 5px !important;
+  color: var(--placeholder);
   padding: 5px;
 }
 
-#full-name {
-  width: 98%;
+#share {
+  margin: 0px 5px;
+}
+
+#full-name, #address-line-1 {
+  width: 583px;
+  margin: 5px;
 }
 
 #digit-number {
-  width: 300px;
+  width: 390px;
+  margin: 5px;
 }
 
-#citizenship, #select-country, #day-phone, #evening-phone,
-#address-line-1, #address-line-2 {
-  width: 282px;
-  margin: 8px 5px;
+#citizenship, #select-country, #day-phone, #evening-phone {
+  width: 287px;
+  margin: 5px;
 }
 
 #city, #state, #zipcode  {
-  margin: 8px 5px;
+  margin: 8px;
 }
 
 .client-details {
@@ -358,21 +366,21 @@ select {
 }
 
 #sig-canvas {
-  border: 2px solid #CCCCCC;
+  border: 2px solid var(--title-color);
   border-radius: 15px;
   cursor: crosshair;
   margin: 10px;
-  color: #fff;
+  color: var(--white);
 }
 
 #sig-dataUrl {
   display: none;
   text-align: center;
-  border: 2px solid #CCCCCC;
+  border: 2px solid var(--title-color);
   border-radius: 15px;
-  color: #5b5b5b;
+  color: var(--canvas-sig-color);
   width: 600px;
-  background-color: #ebebeb;
+  background-color: #var(--filled-bg);
   padding: 5px;
 }
 
@@ -388,10 +396,19 @@ select {
   text-align: center;
   border: 2px solid #CCCCCC;
   border-radius: 15px;
+  display: flex;
 }
 
 #restartBtn {
   display: none;
+}
+
+.sig-canvas-err {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  margin: 5px 0;
 }
 
 .header-two {
@@ -414,9 +431,9 @@ select {
   padding: 5px 0px 0px 0px;
 }
 
-header {
-  height: var(--nav-size);
-  background-color: var(--bright-purple);
+#review-ssn {
+  width: 390px;
+  margin: 5px;
 }
 
 * {
@@ -428,11 +445,11 @@ header {
 
 body {
   font-family: "Montserrat", cursive;
-  color: #717070;
+  color: var(--color-txt);
   margin: 0;
   text-align: center;
-  background-color: #fff;
-  box-shadow: var(--box-shadow);
+  background-color: var(--white);
+  /* box-shadow: var(--box-shadow); */
   text-shadow: var(--text-shadow);
 }
 
@@ -440,7 +457,6 @@ html {
   line-height: 1.2;
   -webkit-text-size-adjust: 100%;
 }
-
 
 h1 {
   font-size: 2em;
@@ -451,103 +467,10 @@ h3, h2 {
   width: 700px;
 }
 
-
-
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-}
-
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-b, strong {
-  font-weight: bolder;
-}
-
-code, kbd, samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-small {
-  font-size: 80%;
-}
-
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-button, input, optgroup, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-button, select {
-  text-transform: none;
-}
-
-button, [type="button"], [type="reset"], [type="submit"] {
-  -webkit-appearance: button;
-}
-
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-legend {
-  padding: 0;
-}
-
-progress {
-  vertical-align: baseline;
-}
-
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-[hidden] {
-  display: none;
 }
 
 
