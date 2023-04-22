@@ -449,7 +449,6 @@ body {
   margin: 0;
   text-align: center;
   background-color: var(--white);
-  /* box-shadow: var(--box-shadow); */
   text-shadow: var(--text-shadow);
 }
 
@@ -471,6 +470,92 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+@media only screen and (max-width: 828px) {
+  /* For mobile phones */
+
+  h1 {
+    font-size: 0.8em !important;
+    margin: 0.2em 0;
+  }
+
+  .main-title {
+    margin: 20px;
+  }
+
+  .stepper {
+    font-size: 6px !important;
+  }
+
+  .step {
+    padding: 0px;
+  }
+
+  .circle {
+    height: 6px;
+    width: 6px;
+  }
+
+  .hr-line {
+    width: 35%;
+  }
+
+  .investments {
+    margin: 0px 260px;
+    height: 30vh;
+  }
+
+  .investment-title {
+    font-size: 8px;
+  }
+
+  .box-grey {
+    margin: 10px;
+    width: 280px;
+    height: 65px;
+  }
+
+  input[type=text] {
+    height: 20px;
+    width: 100px;
+    font-size: 8px;
+  }
+
+  .num-of-shares {
+    padding: 20px;
+    font-size: 8px;
+  }
+
+  .own-btns {
+    margin: 0px;
+  }
+
+  .btn-ownership {
+    height: 50px;
+    width: 40px;
+    font-size: 6px;
+  }
+
+  .btn-ownership:hover {
+    border: 1px solid var(--circle-dark);
+  }
+
+  .fa-circle-check {
+    margin: 10px 5px 10px 5px;
+    font-size: 15px;
+  }
+
+  .btns-bar {
+    margin-left: 250px;
+  }
+
+  .btn-bar {
+    width: 100px;
+    height: 25px;
+    font-size: 8px;
+    /* margin: 0 10px 25px 0; */
+  }
 }
 
 
