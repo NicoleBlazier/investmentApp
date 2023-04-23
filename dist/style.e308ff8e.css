@@ -447,9 +447,9 @@ hr {
   }
 
   .account, .fund, .initial, .review {
-    width: 828px;
+    width: 828px !important;
   }
-  
+
   .ivestments-app {
     width: auto;
   }
