@@ -628,5 +628,9 @@ hr {
     font-size: 9px;
   }
 
+  .account, .fund, .initial, .review {
+    width: 828px;
+  }
+
 
 }
