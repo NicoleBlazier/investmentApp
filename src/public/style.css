@@ -446,12 +446,8 @@ hr {
     margin: 0.2em 0;
   }
 
-  .account, .fund, .initial, .review {
+  .ivestments-app, .account, .fund, .initial, .review {
     width: 828px !important;
-  }
-
-  .ivestments-app {
-    width: auto;
   }
 
   .main-title {
