@@ -242,7 +242,6 @@ input[type=radio] {
 }
 
 .fund {
-  /* margin: 0px 375px; */
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -298,7 +297,6 @@ input[type=text] {
   box-shadow: var(--box-shadow);
   height: 30px;
   width: 185px;
-  /* margin: 0 5px 0 5px; */
   color: var(--color-txt);
   padding: 5px;
 }
@@ -395,14 +393,6 @@ select {
   justify-content: center;
   width: auto;
   margin: 5px 0;
-}
-
-.header-three {
-  margin-left: -450px;
-}
-
-.header-three h3 {
-  margin-left: 140px;
 }
 
 #address-line-2-title {
@@ -545,15 +535,10 @@ hr {
     font-size: 15px;
   }
 
-  .btns-bar {
-    /* margin-left: 250px; */
-  }
-
   .btn-bar {
     width: 100px;
     height: 25px;
     font-size: 8px;
-    /* margin: 0 10px 25px 0; */
   }
 
   .form-title {
