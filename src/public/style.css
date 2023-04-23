@@ -20,12 +20,7 @@
 
   --white: #fff;
 
-  --nav-size: 65px;
   --input-color: #ffdddd;
-  --input-width: 50px;
-  --input-height: 50px;
-
-  --border-radius: 10px;
 
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
   --text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -226,7 +221,6 @@ input[type=radio] {
 .account {
   display: flex;
   flex-direction: column;
-  margin: 0px 375px;
   justify-content: center;
   align-items: center;
   height: auto;
@@ -235,7 +229,6 @@ input[type=radio] {
 .review {
   display: flex;
   flex-direction: column;
-  margin: 0px 375px;
   justify-content: center;
   align-items: center;
   height: auto;
