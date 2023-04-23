@@ -446,8 +446,9 @@ hr {
     margin: 0.2em 0;
   }
 
-  .ivestments-app, .account, .fund, .initial, .review {
-    width: 828px !important;
+  .ivestments-app {
+    max-width: 828px !important;
+    font-size: 0 !important;
   }
 
   .main-title {
@@ -503,6 +504,7 @@ hr {
     height: 20px;
     width: 74px;
     margin: 3px !important;
+    background-color: var(--white);
   }
 
   .num-of-shares {
