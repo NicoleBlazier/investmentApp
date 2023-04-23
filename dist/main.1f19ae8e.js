@@ -295,13 +295,18 @@ function fixStepIndicator(n) {
 }
 
 function nextPrev(n) {
-  // This function will figure out which tab to display
+  console.log(n);
+  console.log(currentTab); // This function will figure out which tab to display
+
   var x = document.getElementsByClassName("tab"); // Exit the function if any field in the current tab is invalid:
 
   if (currentTab == 0 && !valWelcomeForm()) {
     return false;
-  } // if (currentTab == 1 && !valPersonInfoForm()) {return false}
+  }
 
+  if (currentTab == 1 && !valPersonInfoForm()) {
+    return false;
+  }
 
   if (currentTab == 3 && Sign.signed == undefined && n === 1) {
     return false;
@@ -492,6 +497,7 @@ function valPersonInfoForm() {
     }
   }
 
+  console.log('valid', valid);
   saveFormValues();
   return valid; // return the valid status
 }
