@@ -438,7 +438,7 @@ hr {
   overflow: visible;
 }
 
-@media only screen and (max-width: 828px) {
+@media only screen and (max-width: 450px) {
   /* For mobile phones */
 
   h1 {
@@ -447,8 +447,9 @@ hr {
   }
 
   .ivestments-app {
-    max-width: 828px !important;
-    font-size: 0 !important;
+    max-width: 450px !important;
+    /* max-height: 1792px !important;
+    font-size: 0 !important; */
   }
 
   .main-title {
