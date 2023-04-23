@@ -404,10 +404,6 @@ select {
   margin: 5px 0;
 }
 
-.header-two {
-  /* margin-left: -300px; */
-}
-
 .header-three {
   margin-left: -450px;
 }
@@ -626,6 +622,10 @@ hr {
   .fund {
     height: 25vh;
     font-size: 8px;
+  }
+
+  .header-two {
+    font-size: 9px;
   }
 
 
